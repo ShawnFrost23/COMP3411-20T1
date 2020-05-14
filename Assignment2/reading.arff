@@ -1,0 +1,27 @@
+@relation reading.data
+@attribute 'Author' {'known', 'unknown'}
+@attribute 'Thread' {'new', 'followup'}
+@attribute 'Length' {'long', 'short'}
+@attribute 'Where_Reads' {'home', 'work'}
+@attribute 'class' {'skips', 'reads'}
+@data
+known, new, long, home, skips
+unknown, new, short, work, reads
+unknown, followup, long, work, skips
+known, followup, long, home, skips
+known, new, short, home, reads
+known, followup, long, work, skips
+unknown, followup, short, work, skips
+unknown, new, short, work, reads
+known, followup, long, home, skips
+known, new, long, work, skips
+unknown, followup, short, home, skips
+known, new, long, work, skips
+known, followup, short, home, reads
+known, new, short, work, reads
+known, new, short, home, reads
+known, followup, short, work, reads
+known, new, short, home, reads
+unknown, new, short, work, reads
+unknown, new, long, work, ?
+unknown, followup, short, home, ?
